@@ -103,14 +103,13 @@ h3 {
 .Titre-text {
   position: absolute;
   top: 50%;
-  left: 30%;
   transition: 0.3s ease;
 }
 
 @media (max-width: 600px) {
   .Titre-text {
     position: absolute;
-    left: 0;
+    left: 10px;
     top: 35%;
     text-align: center;
   }
@@ -381,6 +380,12 @@ hr {
   font-size: 54px;
   margin-bottom: 40px;
   transition: 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .personnages-principaux h2 {
+    font-size: 25px;
+  }
 }
 
 .personnages-principaux h2:hover {
